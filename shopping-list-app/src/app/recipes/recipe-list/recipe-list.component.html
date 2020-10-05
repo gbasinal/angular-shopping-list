@@ -1,0 +1,19 @@
+
+<div class="recipe-list-container">
+    <div class="recipe-list-wrapper">
+        <a href="#" class="list-group-item" *ngFor="let rec of recipes">
+            <div class="item-wrapper">
+                <div class="recipe-text-details-wrapper">
+                    <p>{{rec.name}}</p>
+                    <p>{{rec.description}}</p>
+                </div>
+                <div class="recipe-image-wrapper">
+                    <img src="{{rec.imagePath}}" alt="">   
+                </div>
+            </div>
+            <!-- <app-recipe-item></app-recipe-item> -->
+        </a>
+    </div>
+</div>
+
+
